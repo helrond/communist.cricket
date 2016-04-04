@@ -21,9 +21,37 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
 }
 
+.mam {
+	margin-bottom: 0 !important;
+}
+
+footer p {
+	color: #999999;
+	font-size: smaller;
+}
+
 header h1 {
 	font-family: $font-family-sans-serif;
 	margin-top: 1.25rem;
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+.page-image {
+	height: 20em;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1em;
+}
+
+.page-image.people {
+    background-image: url(/img/page-image-people.jpg);
+}
+
+.page-image.politics {
+    background-image: url(/img/page-image-politics.jpg);
+}
+
+.page-image.game {
+    background-image: url(/img/page-image-game.jpg);
 }
