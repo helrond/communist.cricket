@@ -1,9 +1,11 @@
+{% assign current = page.url | split: '/' %}
+
 <!doctype html>
 <html class="no-js">
 
   {% include head.html %}
 
-  <body>
+  <body {% if current[1] == null %}class="home"{% endif %}>
 
     <div class="off-canvas-wrap" data-offcanvas>
       <div class="inner-wrap">
@@ -11,6 +13,13 @@
           <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
       <![endif]-->
       {% include navbar.html %}
+
+      {% if current[1] %}
+        {% if current[2] %}
+        {% else %}
+        <div class="page-image {{current}}"></div>
+        {% endif %}
+      {% endif %}
 
         <div class="row">
           <section role="main">
