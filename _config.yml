@@ -6,5 +6,6 @@ url : communist.cricket
 email : info@communist.cricket
 analytics :
 markdown : kramdown
+permalink: pretty
 exclude :
   - node_modules
