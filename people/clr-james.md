@@ -10,4 +10,4 @@ description: Afro-Trinidadian Marxist, author and cricket fan
 
 *   [C. L. R James](https://en.wikipedia.org/wiki/C._L._R._James) <i class="fa fa-wikipedia-w"></i>
 *   [Beyond a Boundary](https://en.wikipedia.org/wiki/Beyond_a_Boundary) <i class="fa fa-wikipedia-w"></i>
-*   [The lessons of cricket](http://socialistworker.org/2014/04/16/the-lessons-of-cricket) <i class="fa fa-globe"></i>
+*   [The lessons of cricket](http://socialistworker.org/2014/04/16/the-lessons-of-cricket) <i class="fa fa-file-text-o"></i>
